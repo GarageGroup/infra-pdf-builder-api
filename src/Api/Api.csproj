@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RootNamespace>GarageGroup.Platform</RootNamespace>
+    <AssemblyName>GarageGroup.Platform.Pdf.Api</AssemblyName>
+    <Version>1.0.0-build.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EarlyFuncPack.Core.AsyncPipeline" Version="0.3.0" />
+    <PackageReference Include="GarageGroup.Infra.Http.Api.Contract" Version="0.1.0" />
+    <PackageReference Include="GarageGroup.Platform.Pdf.Api.Contract" Version="1.0.0-build.1" />
+    <PackageReference Include="PrimeFuncPack.Dependency.Core" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
